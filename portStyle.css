@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100&display=swap');
+
+body {
+    background-color: darkgray;
+}
+
+* {
+    font-family: 'Roboto Slab', serif;
+}
+
+ul li {
+    list-style: none;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px 20px;
+    max-width: 200px;
+    text-align: center;
+    margin: 10px;
+}
+
+ul li:hover  {
+    background-color: gray;
+    color: white;
+    box-shadow: 3px 3px 5px black;
+}
+
+a {
+    color: white;
+    border: 1px solid red;
+    padding: 10px 20px;
+    max-width: 200px;
+    width: inherit;
+}
