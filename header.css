@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100&display=swap');
+
+header.main, .top, .topNav {
+    width: 100%; 
+}
+
+header.main > nav > ul > li {
+    //border: 1px solid pink;
+    padding: 10px 0px;
+    width: 25%;
+    list-style: none;
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+    color: white;
+    display: flex;
+    
+}
+header.main > nav > ul > li:hover {
+    background-color: gray;
+}
+
+header.main {
+    //width: 95%;
+    align-content: center;
+    //border: 1px dashed red;
+    display: flex;
+    position: fixed;
+    z-index: 10;
+    background-color: darkgray;
+}
+
+header.main > nav > ul {
+    //border: 1px dotted blue;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px 0px;
+}
