@@ -138,6 +138,7 @@ ul.nutrition li {
 
 header.main {
     //width: 95%;
+    height: 40px;
     align-content: center;
     //border: 1px dashed red;
     display: inline-block;
@@ -157,7 +158,7 @@ header.main > nav > ul > li {
     list-style: none;
     text-align: center;
     //border: 1px solid pink;
-    padding: 0px 0px;
+    padding: 10px 0px;
     width: 25%;
 }
 
@@ -170,7 +171,8 @@ header.main > nav > ul > li:hover {
 }
 
 header.main > nav > ul > li > a {
-    font-family: 'Roboto Slab';
+    font-family: 'Roboto Slab', sans-serif;
+    
     color: white;
     padding: 0px;
     max-width: inherit;
