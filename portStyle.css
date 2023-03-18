@@ -7,7 +7,7 @@ body {
 }
 
 * {
-    font-family: 'Roboto Slab', serif;
+    font-family: 'Roboto Slab', sans-serif;
     color: white;
 }
 
@@ -21,17 +21,24 @@ header.main {
     z-index: 10;
 }
 
-header.main nav ul > li {
-    list-style: none;
-    text-align: center;
-    
-}
 
-ul {
+
+header.main > nav > ul {
     //border: 1px dotted blue;
     display: flex;
     justify-content: center;
     padding: 10px 0px;
+}
+
+header.main > nav > ul > li {
+    list-style: none;
+    text-align: center;
+}
+
+ul.projects {
+    display: flex;
+    justify-content: center;
+    padding: 0;
 }
 
 header.main, .top, .topNav {

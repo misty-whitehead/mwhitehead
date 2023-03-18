@@ -21,6 +21,8 @@ nav img {
   display: block;
   width: 180px;
   margin: 0 auto;
+    position: relative;
+    z-index: 1;
 }
 
 nav span {
@@ -129,3 +131,52 @@ ul.nutrition li {
   font-weight: 700;
   letter-spacing: 2px;
 }
+
+/* header for linking everything to portfolio */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100&display=swap');
+
+header.main {
+    //width: 95%;
+    align-content: center;
+    //border: 1px dashed red;
+    display: inline-block;
+    position: relative;
+    z-index: 10;
+    background-color: darkgray;
+}
+
+header.main > nav > ul {
+    //border: 1px dotted blue;
+    display: flex;
+    justify-content: center;
+    padding: 0px 0px;
+}
+
+header.main > nav > ul > li {
+    list-style: none;
+    text-align: center;
+    //border: 1px solid pink;
+    padding: 0px 0px;
+    width: 25%;
+}
+
+header.main, .top, .topNav {
+    width: 100%; 
+}
+
+header.main > nav > ul > li:hover {
+    background-color: gray;
+}
+
+header.main > nav > ul > li > a {
+    font-family: 'Roboto Slab';
+    color: white;
+    padding: 0px;
+    max-width: inherit;
+    margin: 10px;
+    text-decoration: none;
+    text-align: center;
+    //border: 1px solid yellow;
+}
+
